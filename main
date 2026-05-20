@@ -20,7 +20,7 @@ def encrypt():
             continue
         encoded_text = alphabet[index_of_text + shift]
         display += encoded_text
-    print(display)
+        print(f"Here is the encoded result: {display}")
 
 # TODO-3: Call the 'encrypt()' function and pass in the user inputs. You should be able to test the code and encrypt a
 #  message.
